@@ -19,8 +19,8 @@ VALUES ('VW'),('BMW')
 INSERT INTO Veiculo(IdEmpresa, IdModelo, IdMarca, Placa)
 VALUES (1, 1, 1, 'DIZ-6530'), (1, 2, 2, 'DIZ-6540')
 
-INSERT INTO Aluguel(IdVeiculo, IdCliente, Protocolo)
-VALUES (1, 1, '123456'), (1, 2, '123457'), (2, 1, '123458')
+INSERT INTO Aluguel(IdVeiculo, IdCliente, Protocolo, DataInicio, DataFim)
+VALUES (1, 1, '123456', '25-10-2023', '25-11-2023'), (1, 2, '123457', '25-10-2023', '25-11-2023'), (2, 1, '123458', '25-10-2023', '25-11-2023')
 
 --INSERT INTO Pessoa VALUES('Carlos','123455676')
 

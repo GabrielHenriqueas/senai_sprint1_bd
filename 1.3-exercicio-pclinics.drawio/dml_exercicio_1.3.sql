@@ -4,8 +4,8 @@
 USE Exercicio_1_3;
 
 --INSERIR DADOS NA TABELA
-INSERT INTO Clinica(Endereco)
-VALUES ('Rua ABC, 105')
+INSERT INTO Clinica(Endereco, RazaoSocial)
+VALUES ('Rua ABC, 105', 'PetLandia')
 
 INSERT INTO Dono(Nome)
 VALUES ('Valmir'), ('Gabriel'), ('Vitória')
